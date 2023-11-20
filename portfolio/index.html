@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahesh's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #faf4f4;
+
+        }
+
+        header {
+            background-color: #675b98;
+            border-radius: 0 0 1050% 1050% ;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-bottom: 20px;
+            background-color: #675b98;
+            height: auto;
+
+
+        }
+
+        h1 {
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .container {
+
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            text-align: center;
+            border-radius: 20%;
+        }
+
+        section {
+            margin: 20px 0;
+
+        }
+
+
+
+        h2 {
+            font-size: 24px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .skills ul li::before {
+            content: "• ";
+            color: #d26565;
+        }
+
+        .project {
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #f5f5f5;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        /* Add some basic CSS styles for the navbar */
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #675b98;
+            overflow: hidden;
+            border: 5px solid rgb(245, 0, 0);
+            
+            
+
+
+        }
+
+
+        li.nav-item {
+            float: left;
+            text-align: center;
+            display: inline;
+        }
+
+        li.nav-item a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 10px 10px;
+            text-decoration: none;
+        }
+
+        li.nav-item a:hover {
+            background-color: #cc0202;
+
+        }
+
+        .container {
+            padding: 0;
+            margin: 0;
+
+
+        }
+
+        /* ul{
+    list-style-type: none;
+     display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+     
+ }   */
+
+
+        ul li a {
+            text-decoration: none;
+            padding: 5px 1px;
+            font-size: 1em;
+            color: white;
+            border: 1px solid rgb(250, 250, 255);
+            text-transform: uppercase;
+            transition: 0.2s ease-in;
+            cursor: pointer;
+
+
+        }
+
+        nav {
+            background-color: rgb(204, 78, 78);
+            padding: 0px;
+            margin: 0px;
+            position: fixed;
+            /* display: block;  */
+            width: 120px;
+
+
+
+        }
+
+        #about h2 {
+            color: #da1515;
+
+        }
+
+        #about p {
+            color: #3300ff;
+        }
+
+        #about img {
+            justify-content: right;
+        }
+
+        .container {
+            min-height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #675b98;
+        }
+
+        img {
+            width: 50vw;
+            height: 80vh;
+            display: block;
+            object-fit: contain;
+            object-position: center;
+            border-radius: 50%;
+
+        }
+
+        .right p {
+            color: #e9dbdb;
+            line-height: 400%;
+            font-weight: lighter;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: larger;
+        }
+
+        .grid-container {
+            display: grid;
+
+        }
+
+        .right h2 {
+            color: white;
+        }
+
+        .ik {
+            display: flex;
+        }
+
+        #skills {
+            color: #675b98;
+            text-align: center;
+            font-size: larger;
+            font-weight: 600;
+            /* font-style:italic; */
+        }
+
+        #skills h2 {
+            text-align: center;
+            font-weight: 900;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section id="home"></section>
+    <header>
+
+        <h1>MAHESH KAMALAY</h1>
+        <br />
+        <!-- Create the navbar using an unordered list -->
+
+        <div>
+            <nav>
+
+                <ul class="navbar">
+                    <li class="nav-item"><a href="#home">Home</a></li>
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#skills">Skills</a></li>
+                    <li class="nav-item"><a href="#projects">Projects</a></li>
+                    <li class="nav-item"><a href="#resume">Resume</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    </section>
+    <div class="container">
+        <div class="class">
+            <section id="about">
+
+
+                <img src="./images/InShot_20221003_214822172.jpg" alt="mahesh"> <br>
+                <i style="color: white;">&#10084 Mahesh &#10084<br> software developer &#10084 &#10084 &#10084</i>
+
+        </div>
+        <div class="right">
+            <h2>ABOUT ME</h2>
+            <p>
+            <p>I Graduate Bsc computers in 2023<br> My goal is to become a web developer,<br>so,I'm a passionate about
+                learning web development with a strong Interest in HTML, CSS, and JavaScript. <br>I love creating
+                user-friendly and visually appealing websites.
+
+
+            </p>
+        </div>
+    </div>
+    </section>
+
+
+    <section id="skills">
+        <h2>SKILLS</h2>
+
+
+        <table border="5px" cellspacing="15px" cellpadding="8px" align="center" width="1400px">
+
+            <div class="ik">
+                <tr>
+                    <td bgcolor="#675b98" style="color:#ffffff">
+                        <h2>Frontend</h2>
+                        <ul>
+                            <li>Html</li>
+                            <li>CSs</li>
+                            <li>Javascript</li>
+                            <li>jquery</li>
+                            <li>react</li>
+
+                        </ul>
+                    </td>
+
+                    <td bgcolor="#675b98" style="color:#ffffff">
+                        <h2>Backend</h2>
+                        <ul>
+                            <li>java</li>
+                            <li>dot net</li>
+                            <li>python</li>
+                            <li>node.js</li>
+                            <li>express.js</li>
+                        </ul>
+                    </td>
+
+
+                    <td bgcolor="#675b98" style="color:#ffffff">
+                        <h2>Database</h2>
+                        <ul>
+                            <li>My Sql</li>
+                            <li>Sql Server</li>
+                            <li>Oracle</li>
+                            <li>Mongo Db</li>
+                            <li>Advanced</li>
+                        </ul>
+                    </td>
+
+                    <td bgcolor="#675b98" style="color:#ffffff">
+                        <h2>Advanced</h2>
+                        <ul>
+                            <li>React</li>
+                            <li>Django</li>
+                            <li>Angular</li>
+                            <li>Power Bi</li>
+                            <li>Datascience</li>
+                        </ul>
+                    </td>
+
+                </tr>
+            </div>
+
+
+        </table>
+        <section id="projects">
+            <h2>PROJECTS</h2>
+            <table border="5px" cellspacing="15px" cellpadding="8px" align="center" width="1400px">
+
+                <div class="ik">
+                    <tr>
+                        <td bgcolor="#675b98" style="color:#ffffff">
+                            <h2>MAGAZINE</h2>
+                            <ul>
+
+
+                                <li><img src="./images/raash.jpg" alt="" style="height: 400px; width: 600px;"></li>
+
+
+                            </ul>
+                            <p style="color: rgb(253, 246, 242);"> I BUILD WEB APPLICATION FOR MODELS IN INDIA
+                                THIS WEBSITE HAVING INFORMATION ABOUT MISS WORLD MISS UNIVERSE AND DETAILS OF ALL
+                                CELEBRITIES ETC.....</pre>
+                            </p>
+                        </td>
+
+                        <td bgcolor="#675b98" style="color:#ffffff">
+                            <h2>VOICE APP</h2>
+                            <ul>
+                                <li><img src="./images/rrr.jpg" alt="" style="height: 400px; width: 400px;"></li>
+
+                            </ul>
+                            <p style="color: rgb(253, 246, 242);"> I BUILD WEB APPLICATION CALLED VOICE ASSISTANT
+                                THIS AI GIVE RESPONSES OF END-USERS IT GIVES ANSWERS THROUGH VOICE ONLY SOME
+                                QUESTIONS.........</pre>
+                            </p>
+                        </td>
+
+
+
+                </div>
+
+
+            </table>
+
+
+
+            <section id="resume">
+                <h2>RESUME</h2>
+                <p style="color: #cc0202;">You can download my resume <a href="./file/Mahesh_Kamalay.pdf"> Click here </a>.</p>
+            </section>
+
+            <section id="contact" class="contact">
+
+
+                <table border="1px cellspacing=" 0px" cellpadding="6px" align="center" width="1200px">
+                    <tr bgcolor="#5563DE">
+
+                    </tr>
+                    <!-- links code -->
+
+                    <tr bgcolor=" #675b98">
+                        <td colspan="4" align="center">
+                            <h2 style="color: rgb(250, 250, 250);">CONTACT US</h2>
+                        </td>
+                    </tr>
+
+
+                    <tr align="center">
+                        <td bgcolor="#675b98" colspan="2">
+
+
+                            <form action="">
+                                <h1 align="center" style="color: rgb(237, 239, 244);">Register Here</h1>
+
+                                <h3 style="color: rgb(237, 239, 244);">Name:-</h3>
+                                <input style="height:30px; font-size: 20pt;" type="text" placeholder="username">
+                                <h3 style="color: rgb(237, 239, 244);">Email:</h3>
+                                <input style="height:30px; font-size: 20pt;" type="emal"
+                                    placeholder="Enter email address">
+                                <h3 style="color: rgb(237, 239, 244);">Password:-</h3>
+                                <input style="height:30px; font-size: 20pt;" type="password" placeholder="password">
+                                <br> <br>
+
+
+
+
+                                <input style="height:50px; font-size: 20pt;" type="submit" value="Login">
+
+
+                            </form>
+                        </td>
+
+
+                        <td bgcolor="white" colspan="2">
+                            <h2 align="center"></h2>
+
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7612.380501706389!2d78.37881726867874!3d17.450605878533143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93ded9f6f0d7%3A0xa3d91e5d00d50b63!2sCyber%20Towers!5e0!3m2!1sen!2sin!4v1698330503943!5m2!1sen!2sin"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </td>
+                    </tr>
+
+                    <tr bgcolor="#675b98">
+                        <td colspan="4" align="center">
+                            <h2 style="color: rgb(250, 250, 250);">ADDRESS</h2>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td bgcolor="#675b98" style="color: #e9dbdb;" colspan="1">
+                            <h2 align="center">Call us</h2>
+                            <b>
+                                <ul>
+                                    <li style="height:15px; font-size: 15pt; color: rgb(255, 255, 255); "> +919380727245
+                                    </li><br>
+                                    <strike>
+                                        <li style="height:15px; font-size: 15pt; color: rgb(236, 237, 240); ">
+                                            +914314314344</li> <br>
+                                    </strike>
+                                    <strike>
+                                        <li style="height:15px; font-size: 15pt; color: rgb(255, 255, 255); ">
+                                            +912458762548</li> <br>
+                                    </strike>
+                                    <strike>
+                                        <li style="height:15px; font-size: 15pt; color: rgb(237, 237, 237); ">
+                                            +919380721433</li><br>
+                                    </strike>
+                                    <strike>
+                                        <li style="height:15px; font-size: 15pt; color: rgb(212, 219, 238); ">
+                                            +919632587154</li><br>
+                                    </strike>
+                                </ul>
+                            </b>
+
+                        </td>
+
+                        <td bgcolor="white" colspan="1">
+                            <h2 align="center">Contact Address</h2>
+                            <b style="height:15px; font-size: 12pt; color: rgb(255, 0, 0); ">
+                                plot no:- 143, <br><br> Mahesh Apartments <br> <br>
+                                phase III, <br> <br>Jubille hills <br><br> Hyderabad, <br><br>
+                                Telangana, 500033.
+                            </b>
+
+                        </td>
+
+
+                        <td bgcolor="white" colspan="1">
+                            <h2 align="center">Email Us for Query</h2> <br>
+                            <b>
+                                <a href="mahesh"
+                                    style="height:15px; font-size: 15pt; color: rgb(255, 0, 0); ">mahesh143shreya@gmail.com</a>
+                                <br>
+                                <a href="mahesh"
+                                    style="height:15px; font-size: 15pt; color: rgb(255, 0, 0); ">maheshugyubdioh@gmail.com</a>
+                                <br>
+                                <a href="mahesh"
+                                    style="height:15px; font-size: 15pt; color: rgb(255, 0, 0); ">mahesh1lvjiheya@gmail.com</a>
+                                <br>
+                                <a href="mahesh"
+                                    style="height:15px; font-size: 15pt; color: rgb(255, 0, 0); ">mahesdokdihkdka@gmail.com</a>
+                                <br>
+                                <a href="mahesh"
+                                    style="height:15px; font-size: 15pt; color: rgb(255, 0, 0); ">mahesh143shdijh@.com</a>
+                                <br>
+
+
+                        </td>
+
+                        <td bgcolor="#675b98" colspan="1">
+                            <h2 align="center" style="color: white;">Follow Us</h2> <br>
+                            <a href="#" class="fa fa-facebook"></a>
+
+                            <b><a href="facebook.com"
+                                    style="height:30px; font-size: 20pt; color: antiquewhite; ">facebook</a><br></b>
+                            <b><a href="instagram.com"
+                                    style="height:30px; font-size: 20pt; color: antiquewhite;">instagram</a><br></b>
+                            <b><a href="twitter.com"
+                                    style="height:30px; font-size: 20pt; color: antiquewhite;">twitter</a><br></b>
+                            <b><a href="linkedin.com"
+                                    style="height:30px; font-size: 20pt; color: antiquewhite;">linkedin</a><br></b>
+                            <b><a href="snapchat.com"
+                                    style="height:30px; font-size: 20pt; color: antiquewhite;">snapchat</a><br></b>
+                            <b><a href="whatsapp.com"
+                                    style="height:30px; font-size: 20pt; color: antiquewhite;">whatsapp</a><br></b>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" bgcolor="#675b98" align="center">
+
+                            <h3 style="color: #f5f5f5;">&copy; Copyright, All rights Reserved <sup>&reg;</sup> </h3>
+
+                            <marquee behavior="alternate" direction="scroll" scrollamount="10s">
+                                <h2 style="color: rgb(255, 255, 255) ;">Develped by @ Mahesh &reg &#10084&#10084&#10084
+                                </h2>
+                            </marquee>
+                        </td>
+                    </tr>
+                </table>
+
+                </div>
+            </body>
+                </html>

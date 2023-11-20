@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo {
+    float: left;
+    border: 1px solid rgb(233, 92, 92);
+    width: 20%;
+}
+
+.menu {
+    float: right;
+    width: 70%;
+    border: 1px solid salmon;
+}
+
+.wrapper {
+    border: 1px solid blue;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 2%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.menu ul li a:hover {
+    color: rgb(240, 18, 18);
+    text-decoration: underline;
+}
